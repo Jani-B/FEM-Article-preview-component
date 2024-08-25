@@ -13,7 +13,7 @@ const onClickEvent = () => {
 const onClickEventWide = () => {
   let bubble = document.getElementById("links-bubble");
 
-  if (bubble.style.display === "none") {
+  if (bubble.style.display !== "flex") {
     bubble.style.display = "flex";
   } else {
     bubble.style.display = "none";
