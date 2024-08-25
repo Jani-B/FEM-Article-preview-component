@@ -36,6 +36,10 @@
 
 body {
   height: 100vh;
+}
+
+main {
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -50,6 +54,7 @@ body {
   display: grid;
   grid-template-rows: minmax(100px, 200px) auto;
   gap: 3rem;
+  box-shadow: 5px 10px 30px hsl(208, 11%, 76%);
 }
 
 .image-container {

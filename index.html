@@ -16,66 +16,39 @@
     <title>Article preview component</title>
   </head>
   <body>
-    <div class="container">
-      <div class="image-container">
-        <img src="./images/drawers.jpg" alt="green table with plant" />
-      </div>
-      <div class="content-container">
-        <div class="text-container">
-          <h1 class="manrope-700">
-            Shift the overall look and feel by adding these wonderful touches to
-            furniture in your home
-          </h1>
-          <p class="manrope-500">
-            Ever been in a room and felt like something was missing? Perhaps it
-            felt slightly bare and uninviting. I’ve got some simple tips to help
-            you make any room feel complete.
-          </p>
+    <main>
+      <div class="container">
+        <div class="image-container">
+          <img src="./images/drawers.jpg" alt="green table with plant" />
         </div>
-        <div class="person-container" id="person-container">
-          <div class="avatar">
-            <img src="./images/avatar-michelle.jpg" alt="avatar of Michelle" />
+        <div class="content-container">
+          <div class="text-container">
+            <h1 class="manrope-700">
+              Shift the overall look and feel by adding these wonderful touches
+              to furniture in your home
+            </h1>
+            <p class="manrope-500">
+              Ever been in a room and felt like something was missing? Perhaps
+              it felt slightly bare and uninviting. I’ve got some simple tips to
+              help you make any room feel complete.
+            </p>
           </div>
-          <div class="person-details">
-            <p class="manrope-700">Michelle Appleton</p>
-            <p class="manrope-500">28 Jun 2020</p>
+          <div class="person-container" id="person-container">
+            <div class="avatar">
+              <img
+                src="./images/avatar-michelle.jpg"
+                alt="avatar of Michelle"
+              />
+            </div>
+            <div class="person-details">
+              <p class="manrope-700">Michelle Appleton</p>
+              <p class="manrope-500">28 Jun 2020</p>
+            </div>
+            <button class="share-button" onclick="onClickEvent()">
+              <img src="./images/icon-share.svg" alt="share arrow" />
+            </button>
           </div>
-          <button class="share-button" onclick="onClickEvent()">
-            <img src="./images/icon-share.svg" alt="share arrow" />
-          </button>
-        </div>
-        <div class="share-container share-remove" id="share-container">
-          <div class="share"><p class="manrope-700">SHARE</p></div>
-          <div class="share-links">
-            <a href="#"
-              ><img src="./images/icon-facebook.svg" alt="facebook"
-            /></a>
-            <a href="#"
-              ><img src="./images/icon-twitter.svg" alt="twitter"
-            /></a>
-            <a href="#"
-              ><img src="./images/icon-pinterest.svg" alt="pinterest"
-            /></a>
-          </div>
-          <button class="share-button button-dark" onclick="onClickEvent()">
-            <img src="./images/icon-share.svg" />
-          </button>
-        </div>
-        <div
-          class="wide-screen-person-container"
-          id="wide-screen-person-container"
-        >
-          <div class="avatar">
-            <img src="./images/avatar-michelle.jpg" alt="avatar of Michelle" />
-          </div>
-          <div class="person-details">
-            <p class="manrope-700">Michelle Appleton</p>
-            <p class="manrope-500">28 Jun 2020</p>
-          </div>
-          <button class="share-button" onclick="onClickEventWide()">
-            <img src="./images/icon-share.svg" alt="share arrow" />
-          </button>
-          <div class="links-bubble" id="links-bubble">
+          <div class="share-container share-remove" id="share-container">
             <div class="share"><p class="manrope-700">SHARE</p></div>
             <div class="share-links">
               <a href="#"
@@ -88,9 +61,44 @@
                 ><img src="./images/icon-pinterest.svg" alt="pinterest"
               /></a>
             </div>
+            <button class="share-button button-dark" onclick="onClickEvent()">
+              <img src="./images/icon-share.svg" />
+            </button>
+          </div>
+          <div
+            class="wide-screen-person-container"
+            id="wide-screen-person-container"
+          >
+            <div class="avatar">
+              <img
+                src="./images/avatar-michelle.jpg"
+                alt="avatar of Michelle"
+              />
+            </div>
+            <div class="person-details">
+              <p class="manrope-700">Michelle Appleton</p>
+              <p class="manrope-500">28 Jun 2020</p>
+            </div>
+            <button class="share-button" onclick="onClickEventWide()">
+              <img src="./images/icon-share.svg" alt="share arrow" />
+            </button>
+            <div class="links-bubble" id="links-bubble">
+              <div class="share"><p class="manrope-700">SHARE</p></div>
+              <div class="share-links">
+                <a href="#"
+                  ><img src="./images/icon-facebook.svg" alt="facebook"
+                /></a>
+                <a href="#"
+                  ><img src="./images/icon-twitter.svg" alt="twitter"
+                /></a>
+                <a href="#"
+                  ><img src="./images/icon-pinterest.svg" alt="pinterest"
+                /></a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
+    </main>
   </body>
 </html>
