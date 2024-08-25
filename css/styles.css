@@ -47,7 +47,7 @@ body {
   background-color: var(--white);
   display: grid;
   grid-template-rows: minmax(100px, 200px) auto;
-  gap: 1rem;
+  gap: 3rem;
 }
 
 .image-container {
@@ -125,10 +125,32 @@ body {
   padding: 1.2rem 1.5rem;
   flex-direction: row;
   border-radius: 0px 0px 10px 10px;
-  background-color: blue;
+  background-color: var(--Very-Dark-Grayish-Blue);
 }
 
 #share-container {
   display: none;
   flex-direction: row;
+  align-items: center;
+}
+
+.share {
+  display: flex;
+  padding-right: 1.2rem;
+  color: var(--Grayish-Blue);
+  align-items: center;
+}
+
+.share p {
+  letter-spacing: 0.3rem;
+}
+
+.share-links {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.button-dark {
+  background-color: var(--Grayish-Blue);
 }
