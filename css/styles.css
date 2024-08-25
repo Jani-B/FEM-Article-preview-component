@@ -21,6 +21,7 @@
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
+  color: var(--Desaturated-Dark-Blue);
 }
 
 .manrope-700 {
@@ -28,6 +29,7 @@
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
+  color: var(--Very-Dark-Grayish-Blue);
 }
 
 /*Card*/
@@ -72,12 +74,10 @@ body {
   padding: 0 1.5rem;
   margin-bottom: 1rem;
   font-size: 1.5rem;
-  color: var(--Very-Dark-Grayish-Blue);
 }
 
 .text-container p {
   padding: 0 1.5rem;
-  color: var(--Desaturated-Dark-Blue);
 }
 
 .person-container {
@@ -107,7 +107,7 @@ body {
 
 .person-details {
   display: inline-block;
-  margin: auto 0.5rem;
+  margin: auto 1.2rem;
   justify-content: center;
 }
 
@@ -144,6 +144,7 @@ body {
 
 .share p {
   letter-spacing: 0.3rem;
+  color: var(--Grayish-Blue);
 }
 
 .share-links {
@@ -194,7 +195,7 @@ body {
   .wide-screen-person-container {
     display: flex;
     margin-top: 1rem;
-    padding: 1.2rem 1.5rem;
+    padding: 1.2rem 1.5rem 2rem 1.5rem;
     border-radius: 0px 0px 10px 10px;
     position: relative;
   }
@@ -215,7 +216,7 @@ body {
     background-color: var(--Very-Dark-Grayish-Blue);
     border-radius: 10px;
     top: -5rem;
-    right: -5rem;
+    right: -3.6rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
   }
@@ -223,7 +224,7 @@ body {
   .links-bubble:after {
     content: "";
     position: absolute;
-    right: 50%;
+    right: 40%;
     top: 100%;
     width: 0;
     height: 0;
